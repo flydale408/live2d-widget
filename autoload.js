@@ -6,7 +6,7 @@ const live2d_path = "https://cdn.jsdelivr.net/gh/flydale408/live2d-widget@latest
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
 		let tag;
-		
+
 		if (type === "css") {
 			tag = document.createElement("link");
 			tag.rel = "stylesheet";
